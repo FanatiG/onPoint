@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>titlePlaceholder</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../style/mainPage.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <input type="radio" name="item" id="section1" class="vertSlider" checked />
+    <input type="radio" name="item" id="section2" class="vertSlider" />
+    <input type="radio" name="item" id="section3" class="vertSlider" />
+
+    <nav class="nav">
+        <label class="nav__item" for="section1"></label>
+        <label class="nav__item" for="section2"></label>
+        <label class="nav__item" for="section3"></label>
+    </nav>
+
+    <section class="slide" id="page0" ontouchmove="handleGesture(event)">
+        </div>
+        <h1>Всегда ли цели терапии СД2<br>на поверхности?</h1>
+        <p id="hba1c">Цель по HbA1c</p>
+        <p id="glikemia">Гипогликемия</p>
+        <p id="risks">СС риски</p>
+        <p id="complications">Осложнения СД</p>
+        <div class="pulsatingPoint" id="hba1cPoint">
+            <div class="pointAnimation">
+            </div>
+        </div>
+        <div class="pulsatingPoint" id="glikemiaPoint">
+            <div class="pointAnimation">
+            </div>
+        </div>
+        <div class="pulsatingPoint" id="risksPoint">
+            <div class="pointAnimation">
+            </div>
+        </div>
+        <div class="pulsatingPoint" id="complicationsPoint">
+            <div class="pointAnimation">
+            </div>
+        </div>
+        <div class="goNextText">Листайте вниз</div>
+        <div class="goNextArrow"></div>
+        <div class="goNext"></div>
+    </section>
+    <section class="slide" id="page1" ontouchmove="handleGesture(event)">
+        <h2>Основа терапии —<br>патогенез СД2</h2>
+        <div class="iceCube" id="iceCube1slide1"></div>
+        <div class="iceCube" id="iceCube2slide1"></div>
+        <div class="iceCube" id="iceCube3slide1"></div>
+        <div class="iceCube" id="iceCube4slide1"></div>
+    </section>
+    <section class="slide" id="page2" ontouchmove="handleGesture(event)">
+        <h3>Звенья патогенеза СД2</h3>
+        <div id="scheme1"></div>
+        <div class="iceCube" id="iceCube1slide2"></div>
+        <div class="iceCube" id="iceCube2slide2"></div>
+        <div class="iceCube" id="iceCube3slide2"></div>
+        <p id="page2_1p" class="numbers">1</p>
+        <p id="page2_2p" class="numbers">2</p>
+        <p id="page2_3p" class="numbers">3</p>
+        <p id="page2_4p" class="numbers">4</p>
+        <p id="page2_5p" class="numbers">5</p>
+        <p id="page2_6p" class="numbers">6</p>
+        <p id="page2_7p" class="numbers">7</p>
+        <p id="page2_8p" class="numbers">8</p>
+        <p id="page2_9p" class="numbers">9</p>
+        <p id="page2_10p" class="numbers">10</p>
+        <p id="page2_11p" class="numbers">11</p>
+        <p id="page2_12p" class="betaSign">β</p>
+        <p id="page2_13p">β-клетки</p>
+        <p id="page2_14p">↓ инкретинового<br>эффекта</p>
+        <p id="page2_15p">Дефект α-клеток</p>
+        <p id="page2_16p">Жировые клетки</p>
+        <p id="page2_17p">Мышцы</p>
+        <p id="page2_18p">Печень</p>
+        <p id="page2_19p">Головной мозг</p>
+        <p id="page2_20p">Микрофлора<br>кишечника</p>
+        <p id="page2_21p">Нарушение иммунной<br>регуляции/воспаление</p>
+        <p id="page2_22p">Желудок</p>
+        <p id="page2_23p">Почки</p>
+        <p id="page2_24p">Инсулинорезистентность</p>
+        <p id="page2_25p">↑ глюкагон</p>
+        <p id="page2_26p">↓ амилин</p>
+    </section>
+    <section class="slide" id="page3">
+        <h3>Смертельный октет</h3>
+        <div id="scheme2"></div>
+        <div class="iceCube" id="iceCube1slide3"></div>
+        <div class="iceCube" id="iceCube2slide3"></div>
+        <div class="iceCube" id="iceCube3slide3"></div>
+        <p id="page3_1p" class="numbers">1</p>
+        <p id="page3_2p" class="numbers">2</p>
+        <p id="page3_3p" class="numbers">3</p>
+        <p id="page3_4p" class="numbers">4</p>
+        <p id="page3_5p" class="numbers">5</p>
+        <p id="page3_6p" class="numbers">6</p>
+        <p id="page3_7p" class="numbers">7</p>
+        <p id="page3_8p" class="numbers">8</p>
+        <p id="page3_9p" class="betaSign">β</p>
+        <p id="page3_10p">β-клетки</p>
+        <p id="page3_11p">Инкретиновый<br>эффект</p>
+        <p id="page3_12p">Дефект<br>α-клеток</p>
+        <p id="page3_13p">Жировые<br>клетки</p>
+        <p id="page3_14p">Мышцы</p>
+        <p id="page3_15p">Печень</p>
+        <p id="page3_16p">Головной<br>мозг</p>
+        <p id="page3_17p">Почки</p>
+        <p id="page3_18p">Гипергликемия</p>
+    </section>
+    <section class="slide" id="page4">
+        <h3>Звенья патогенеза СД2</h3>
+        <div id="scheme3"></div>
+        <div class="iceCube" id="iceCube1slide4"></div>
+        <div class="iceCube" id="iceCube2slide4"></div>
+        <div class="iceCube" id="iceCube3slide4"></div>
+        <p id="page4_1p" class="numbers">1</p>
+        <p id="page4_2p" class="numbers">2</p>
+        <p id="page4_3p" class="numbers">3</p>
+        <p id="page4_4p" class="betaSign">β</p>
+        <p id="page4_5p">β-клетки</p>
+        <p id="page4_6p">Мышцы</p>
+        <p id="page4_7p">Печень</p>
+        <p id="page4_8p">Гипергликемия</p>
+    </section>
+    <input id="scroller" type="range" min="0" max="2" step="1" value="2" />
+    <script src="../src/main.js"></script>
+</body>
+
+</html>
